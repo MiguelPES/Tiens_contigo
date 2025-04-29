@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TIENS Contigo</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+    <header>
+        <h1>TIENS Contigo</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Productos</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="productos-container">
+            <h2>Nuestros Productos</h2>
+            <div id="productos"></div>
+        </section>
+        <section id="chatbot-section">
+            <h2>Asistente Virtual TIENS</h2>
+            <div id="chatbox">
+                <div id="messages"></div>
+                <input type="text" id="user-input" placeholder="Escribe tu pregunta..." />
+                <button onclick="sendMessage()">Enviar</button>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 TIENS Contigo. Todos los derechos reservados.</p>
+    </footer>
+    <script src="main.js"></script>
+    <script src="chatbot.js"></script>
+</body>
+</html>

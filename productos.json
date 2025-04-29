@@ -1,0 +1,17 @@
+[
+    {
+        "nombre": "VIOKAL",
+        "descripcion": "Calcio con alta absorción (95%) ideal para fortalecer huesos, dientes y el sistema inmunológico.",
+        "precio": "S/ 80.00"
+    },
+    {
+        "nombre": "CHITOSA 150 mg",
+        "descripcion": "Limpia el sistema digestivo, atrapa grasa y apoya el sistema inmune.",
+        "precio": "S/ 95.00"
+    },
+    {
+        "nombre": "CORDYCEPS 500 mg",
+        "descripcion": "Hongo tibetano que fortalece el sistema inmune y mejora la resistencia física.",
+        "precio": "S/ 110.00"
+    }
+]
